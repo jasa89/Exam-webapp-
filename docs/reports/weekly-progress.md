@@ -7,26 +7,46 @@
 ### Customer Project Status Update
 ### Team Information
 ### Team Name
+
 ### [Insert team name group 4 ]
-### Reporting Week
+### Reporting Week 1 
 ### Week: [Insert week number]
-### Reporting Date: [Insert date]
+### Reporting Date: [17.05.2026]
 ### Team Members Present
 ### [Janne Saarela]
 ### [Lasse Töyräs]
 ### [Mikko Puolakka]
+
 ### 1. Executive Summary
 ### Provide a short high-level summary of the current project situation.
 ### Examples:
 ### What was achieved this week?
+We held the customer meeting and recieved more tasks from customer. 
+ Designed front end pages with mogups. Created github repostory and created issues for the project.  
 ### Is the project progressing according to plan?
+Project has started with planning and base code created to github and issues are created.
 ### Are there major risks or blockers?
+At this point thete is no major blockers risks are that if work gets delayed.
 ### Did priorities change?
+At this point there are not much properties to be changed. Properties about how to design UI for teacher and all functions are now more detailed. Student list must be saved and uploaded for teacher so that teacher can add all studets to a specific course.  
+
+
 ### Recommended length:
 
 ### 3–8 sentences.
 ### 2. Completed This Week
+UI design was compelted this week and preparations for github repository.
 ### Describe completed work and visible progress.
+
+Designed UI for the app
+
+Created github repository for this project
+
+Created project kanban
+
+Created basecode for project
+
+
 ### Examples:
 ### Implemented login system
 ### Created assignment scheduling prototype
@@ -40,8 +60,12 @@
 ### GitHub links
 ### diagrams
 ### short demos
+
 ### 3. Visible Demo for Customer Meeting
 ### Describe what your team plans to demonstrate during the customer meeting.
+
+Visible UI design presented to customer.
+
 ### Examples:
 ### Login workflow
 ### Assignment creation UI
@@ -56,6 +80,16 @@
 
 ### 4. Current Challenges & Risks
 ### Describe current problems, uncertainties, or risks.
+
+Project is starting and studying gaze tracker may take time and there  is several options to consider. 
+
+There might be some issues that are not yet on list. 
+
+Database details are unsure and how to arrange that requires studies. 
+
+
+
+
 ### Examples:
 ### Gaze tracking accuracy is inconsistent
 ### Event logging architecture is unclear
@@ -64,7 +98,12 @@
 ### Integration between frontend and backend is incomplete
 ### Scope may become too large
 ### The customer values transparency and realistic risk reporting.
+
+
 ### 5. Technical Decisions Made This Week
+
+We chose to use React for front end developing.
+
 ### Document important technical or architectural decisions.
 ### Examples:
 ### Selected React for frontend
@@ -76,7 +115,12 @@
 ### What was decided?
 ### Why?
 ### What alternatives were considered?
+
+
 ### 6. Research & Experimentation
+
+Research was not done this week. 
+
 ### Describe any research spikes or experimental investigations.
 ### Examples:
 ### Compared MediaPipe vs WebGazer
@@ -92,7 +136,11 @@
 ### conclusions
 ### next steps
 ### The customer values realistic conclusions even if experiments fail.
+
 ### 7. Questions for the Customer
+Highest priority should be asked next week.
+ 
+
 ### List questions requiring customer clarification.
 ### Examples:
 ### Should suspicious events be shown in real time?
@@ -101,7 +149,14 @@
 ### Is browser-only monitoring sufficient?
 ### Should assignment feedback be immediate or delayed?
 ### The customer expects active communication.
+
 ### 8. Planned Goals for Next Week
+
+UI demo for customer done with react
+at least some of the UI created with designed visuals. 
+- More knowledge about options how to prevent exam taker to use plugins and how to force safebrowser during exam.
+- choosing database tools and start designing.
+
 ### Describe planned goals for the upcoming week.
 ### Examples:
 ### Finish authentication workflow
@@ -115,6 +170,9 @@
 
 
 ### 9. Scope & Prioritization Notes
+Login priority set to low priority. 
+Sign up priority set to low priority.
+
 ### Describe any prioritization discussions or scope adjustments.
 ### Examples:
 ### Postponed advanced AI features
@@ -122,7 +180,11 @@
 ### Simplified database structure
 ### Prioritized stable MVP functionality
 ### The customer values realistic prioritization.
+
 ### 10. Technical Debt & Known Limitations
+We are still studying limitations of safe browser forcing and lititaions on how to prevet plugins.
+
+
 ### Document known issues, shortcuts, or unfinished areas.
 ### Examples:
 ### Monitoring events stored only in memory
@@ -130,8 +192,19 @@
 ### Gaze tracking currently unstable
 ### Dashboard contains placeholder data
 ### Mobile responsiveness not implemented
+
 ### The customer values honesty and transparency.
+
 ### 11. GitHub & Project Management Status
+Git hub repositoru established and issues managed.
+
+sprints designed for further progress.
+
+Github repository link: https://github.com/jasa89/Exam-webapp-
+
+Kanban board created
+
+
 ### Provide links or summaries related to project management.
 ### Examples:
 ### GitHub repository link
@@ -145,7 +218,9 @@
 
 
 ### blocked tasks
+
 ### 12. Additional Notes
+
 ### Optional section for:
 ### concerns
 ### customer observations
