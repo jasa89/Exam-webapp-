@@ -7,6 +7,7 @@ import App from "./App"
 import Frontpage from './pages/Frontpage'
 import Studentspage from './pages/Studentspage';
 import Teacherspage from './pages/teacherspage'
+import Examdesignpage from './pages/Examdesignpage'
 
 
 
@@ -24,8 +25,11 @@ const router = createBrowserRouter([
     // Teacher route
       { path: "teacher", element: <Teacherspage /> },  
 
-
-      
+      // Design exam route
+      {path: "design-exam", element: <Examdesignpage />}
+    
+    
+    
     ]
   
   
