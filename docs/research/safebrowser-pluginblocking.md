@@ -39,9 +39,16 @@ For safebrowsing it is required to have a native desktop app for example: Safe E
 -Possibility to use Thumbmark js for preventing users to change brwser during exam or changing device during exam. 
  https://www.thumbmarkjs.com/
 
--There is possibility to use Mutation observer with React application to detect Ai assisted   
+-There is possibility to use Mutation observer with React application to detect Ai assisted usage but it is limited and detects googletranslate mutations in html.   
 links: https://developer.mozilla.org/en-US/docs/Web/API/MutationObserver
     https://www.youtube.com/watch?v=Mi4EF9K87aM
+
+-React aplication has features that can be used to prevent user from using AI plugins asn Ai help from Ai on separate window. 
+
+-There is possibility to use Clippoard API to detect copy pasting and prevent Ai usage to copy Ai:s answers to text fields or codefields. https://developer.mozilla.org/en-US/docs/Web/API/Clipboard_API
+
+
+
 
 
 

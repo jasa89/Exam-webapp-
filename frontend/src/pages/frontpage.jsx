@@ -1,13 +1,14 @@
 import React from 'react'
 import "./Frontpage.css"
+import Topnav from '../components/topnav/Topnav'
 
 
-
-
-
-export default function frontpage() {
+export default function Frontpage() {
   return (
-    <div className="frontContainer"> 
+  
+  <>
+   <Topnav/>
+   <div className="frontContainer"> 
     <div className='Front-title'>
    
     <h1>Exam app</h1>
@@ -18,7 +19,7 @@ export default function frontpage() {
  </div>   
  </div>
   </div>
-
+</>
 )
 }
         
