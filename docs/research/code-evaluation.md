@@ -12,6 +12,13 @@ link: https://blog.logrocket.com/build-web-editor-with-react-monaco-editor/
 ### Gemma 4 
 
 -Teachers can use gemma4 as help tool 
+- Tested gemma four locally and user was able to create tasks for exams or quiz questions with Ai assistance.  
 
 links: https://ai.google.dev/gemma/docs/core
+        https://www.youtube.com/watch?v=7LEvSOiTWZk
+
+        - https://ollama.com/download
+
+        
+
  
