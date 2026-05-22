@@ -255,7 +255,7 @@ Kanban board created
 ### [ group 4 ]
 ### Reporting Week 2 
 ### Week: [2]
-### Reporting Date: [21.05.2026]
+### Reporting Date: [22.05.2026]
 ### Team Members Present
 ### [Janne Saarela]
 ### [Lasse Töyräs]
@@ -270,7 +270,7 @@ Front end development tasks:
 -Front page UI was done
 -Teachers page UI was done
 -Router for front end was done
-- 
+
 
 ### Is the project progressing according to plan?
 Project is slowed down and it could go on faster.
@@ -340,8 +340,7 @@ Project is starting and studying gaze tracker may take time and there  is severa
 There might be some issues that are not yet on list. 
 
 Database details are unsure and how to arrange that requires studies. 
-
-
+ - Ai agent and code eveluation
 
 
 ### Examples:
@@ -373,7 +372,7 @@ We chose to use React for front end developing.
 
 ### 6. Research & Experimentation
 
-Reserarch on gemma4 and can it be used to help teacher to plan exams or quiz tasks.
+Research on gemma4 and can it be used to help teacher to plan exams or quiz tasks.
 
 ### Describe any research spikes or experimental investigations.
 ### Examples:
@@ -407,9 +406,11 @@ Ask about priorities and how important it is to design exams and to
 ### 8. Planned Goals for Next Week
 
 UI demo for customer done with react
-at least some of the UI created with designed visuals. 
-- More knowledge about options how to prevent exam taker to use plugins and how to force safebrowser during exam.
+
 - choosing database tools and start designing.
+- more specific and fixed exam creation and qiz creation
+- starting with database
+
 
 ### Describe planned goals for the upcoming week.
 ### Examples:
@@ -427,6 +428,7 @@ at least some of the UI created with designed visuals.
 Login priority set to low priority. 
 Sign up priority set to low priority.
 
+
 ### Describe any prioritization discussions or scope adjustments.
 ### Examples:
 ### Postponed advanced AI features
@@ -436,7 +438,7 @@ Sign up priority set to low priority.
 ### The customer values realistic prioritization.
 
 ### 10. Technical Debt & Known Limitations
-We are still studying limitations of safe browser forcing and lititaions on how to prevet plugins.
+We know that react cant work as native desktop application and force fullscreen during exam.
 
 
 ### Document known issues, shortcuts, or unfinished areas.
@@ -447,16 +449,26 @@ We are still studying limitations of safe browser forcing and lititaions on how 
 ### Dashboard contains placeholder data
 ### Mobile responsiveness not implemented
 
+Currently we have no database or back end yet. 
+
+
+
+
 ### The customer values honesty and transparency.
 
+
+
 ### 11. GitHub & Project Management Status
-Git hub repositoru established and issues managed.
+
+ Some issues done and pr:s done. Done front end issues and database design started.
 
 sprints designed for further progress.
 
 Github repository link: https://github.com/jasa89/Exam-webapp-
 
-Kanban board created
+
+
+
 
 
 ### Provide links or summaries related to project management.
