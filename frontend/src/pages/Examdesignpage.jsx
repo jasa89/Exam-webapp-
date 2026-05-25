@@ -86,7 +86,7 @@ export default function Examdesignpage() {
 <button>save and quit</button>
 
 
-<button>Publish course</button>
+<button>Publish exam</button>
 
 </div>
 

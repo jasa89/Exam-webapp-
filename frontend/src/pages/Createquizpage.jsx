@@ -1,13 +1,15 @@
 import React from 'react'
 import Topnav from '../components/topnav/Topnav'
 import './Examdesignpage.css'
+
+
 export default function Createquizpage() {
   return (
    
    <>
     
     <Topnav/>
-    <div className='examdesign-page'> 
+    <div className='exam-designpage'> 
     
     <h1> Create Quiz</h1>
     
@@ -41,7 +43,21 @@ export default function Createquizpage() {
   
 </select>
 
+
 </div>
+
+
+<fieldset className='form-group'>
+  <legend>Allow late submissions (0 points):</legend>
+
+  <div>
+    <input type="checkbox" id="allow-late" name="allow-late"/>
+    
+  </div>
+
+ 
+    
+</fieldset>
 
 <h3>Create tasks:</h3>
 
@@ -50,7 +66,7 @@ export default function Createquizpage() {
   <option value="Task1">Task 1</option>
   <option value="Task2">Task 2</option>
   <option value="Task3">Task 3</option>
-  
+ 
 </select>
 
 </div>
