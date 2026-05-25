@@ -29,11 +29,15 @@ export default function Examdesignpage() {
 <div className="form-group">
 
 <label>Exam date:</label>
-<input type="date" id='start'name="exam-start" />
+<input type="date" id='start'name="exam-date" />
 </div>
 
 
 <div className="form-group">
+<label>Start time:</label>
+<input type="time" name='exam-time' />
+
+
 <label>Exam time limit:</label>
 
 

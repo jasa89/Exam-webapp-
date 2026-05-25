@@ -20,5 +20,3 @@ links: https://ai.google.dev/gemma/docs/core
         - https://ollama.com/download
 
         
-
- 
