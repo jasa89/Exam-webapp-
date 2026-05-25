@@ -5,10 +5,10 @@ import { RouterProvider, createBrowserRouter } from "react-router-dom"
 
 import App from "./App" 
 import Frontpage from './pages/Frontpage'
-import Studentspage from './pages/Studentspage';
+import Studentspage from './pages/Studentspage'
 import Teacherspage from './pages/teacherspage'
 import Examdesignpage from './pages/Examdesignpage'
-
+import Createquizpage from './pages/Createquizpage' 
 
 
 
@@ -26,7 +26,10 @@ const router = createBrowserRouter([
       { path: "teacher", element: <Teacherspage /> },  
 
       // Design exam route
-      {path: "design-exam", element: <Examdesignpage />}
+      {path: "design-exam", element: <Examdesignpage />},
+    
+     // Design quiz route
+      {path: "create-quiz", element: <Createquizpage />}
     
     
     
