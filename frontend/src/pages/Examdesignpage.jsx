@@ -55,12 +55,15 @@ export default function Examdesignpage() {
 <h3>Create tasks:</h3>
 
 <select name="tasks" id="task-select">
-  <option value="">Select tasks for exam from Qizz database</option>
-  <option value="Quizz1">Quizz 1</option>
-  <option value="Quizz2">Quizz 2</option>
-  <option value="Quizz3">Quizz 3</option>
+  
+  <option value="">Select tasks for Exam from Task database</option>
+  <option value="Task1">Task 1</option>
+  <option value="Task2">Task 2</option>
+  <option value="Task3">Task 3</option>
   
 </select>
+  
+
 
 </div>
 
@@ -75,9 +78,6 @@ export default function Examdesignpage() {
 </textarea>
 
 
-
-
-
 </div>
  <button>Generate with AI</button>
 
@@ -86,7 +86,7 @@ export default function Examdesignpage() {
 <button>save and quit</button>
 
 
-<button>Publish course</button>
+<button>Publish exam</button>
 
 </div>
 
