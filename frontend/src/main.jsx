@@ -9,7 +9,7 @@ import Studentspage from './pages/Studentspage'
 import Teacherspage from './pages/teacherspage'
 import Examdesignpage from './pages/Examdesignpage'
 import Createquizpage from './pages/Createquizpage' 
-
+import Createcoursepage from './pages/Createcoursepage'
 
 
 const router = createBrowserRouter([
@@ -29,8 +29,10 @@ const router = createBrowserRouter([
       {path: "design-exam", element: <Examdesignpage />},
     
      // Design quiz route
-      {path: "create-quiz", element: <Createquizpage />}
-    
+      {path: "create-quiz", element: <Createquizpage />},
+      
+      // Create course route
+      {path: "create-course", element: <Createcoursepage />}
     
     
     ]
