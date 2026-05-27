@@ -507,7 +507,6 @@ Github repository link: https://github.com/jasa89/Exam-webapp-
 
 
 
-
 ## Week 3
 
 ### Weekly Status Report Template
@@ -519,7 +518,7 @@ Github repository link: https://github.com/jasa89/Exam-webapp-
 ### [ group 4 ]
 ### Reporting Week 3
 ### Week: [3]
-### Reporting Date: [22.05.2026]
+### Reporting Date: [27.05.2026]
 ### Team Members Present
 ### [Janne Saarela]
 
@@ -530,10 +529,11 @@ Github repository link: https://github.com/jasa89/Exam-webapp-
 ### Provide a short high-level summary of the current project situation.
 ### Examples:
 ### What was achieved this week?
-Front end development tasks:
--Front page UI was done
--Teachers page UI was done
--Router for front end was done
+- designed database
+- created database to local postgersql
+- backend basecode
+- Routes for backend to add task to db and tested with postman
+- studied back end testing 
 
 
 ### Is the project progressing according to plan?
@@ -551,16 +551,14 @@ Priorities are not changed at this point.
 
 ### 3–8 sentences.
 ### 2. Completed This Week
-
+Completed database designing with design tool Mogups and crated database with postgresql. Created base code for back end and tested back end code connection. Created first database model and routes for the model and tested with postman.
+Created documentation about postmans tests and api endpoints to docs folder.
 
 ### Describe completed work and visible progress.
 
-Created parts for app UI front end development
-- created frontpage and nav bar component for navigation
-- created router using react router to render pages.
-
-
-
+- Back end developed and database has information for tasks in questions table. 
+- Model created and tested for questions and database.
+- Documentation done for crated database model with api endpoints and postman requests.
 
 
 
@@ -584,7 +582,7 @@ Created parts for app UI front end development
 ### 3. Visible Demo for Customer Meeting
 ### Describe what your team plans to demonstrate during the customer meeting.
 
-Visible UI made with React for customer meeting.
+
 
 ### Examples:
 ### Login workflow
@@ -601,12 +599,7 @@ Visible UI made with React for customer meeting.
 ### 4. Current Challenges & Risks
 ### Describe current problems, uncertainties, or risks.
 
-Project is starting and studying gaze tracker may take time and there  is several options to consider. 
-
-There might be some issues that are not yet on list. 
-
-Database details are unsure and how to arrange that requires studies. 
- - Ai agent and code eveluation
+Project has communication issues and there is lots of work to be done to make a visible model for customer at this point. 
 
 
 ### Examples:
@@ -620,8 +613,7 @@ Database details are unsure and how to arrange that requires studies.
 
 
 ### 5. Technical Decisions Made This Week
-
-We chose to use React for front end developing.
+Chose to use PostgreSQL for database and node.js for back end development.
 
 ### Document important technical or architectural decisions.
 ### Examples:
@@ -638,9 +630,12 @@ We chose to use React for front end developing.
 
 ### 6. Research & Experimentation
 
-Research on gemma4 and can it be used to help teacher to plan exams or quiz tasks.
+Research on back end testing with jest and mocca chai. 
+
 
 ### Describe any research spikes or experimental investigations.
+
+Compared jest and mocca chai for testing back end. 
 ### Examples:
 ### Compared MediaPipe vs WebGazer
 ### Investigated browser focus APIs
@@ -657,7 +652,9 @@ Research on gemma4 and can it be used to help teacher to plan exams or quiz task
 ### The customer values realistic conclusions even if experiments fail.
 
 ### 7. Questions for the Customer
-Ask about priorities and how important it is to design exams and to 
+Ask about questions re usage and how customer wants to manage tasks. 
+
+
  
 
 ### List questions requiring customer clarification.
@@ -671,11 +668,11 @@ Ask about priorities and how important it is to design exams and to
 
 ### 8. Planned Goals for Next Week
 
-UI demo for customer done with react
+UI demo for customer done with save quiz to database and picking tasks to a quiz from database.
 
-- choosing database tools and start designing.
-- more specific and fixed exam creation and qiz creation
-- starting with database
+- more front end developed for student side UI
+
+
 
 
 ### Describe planned goals for the upcoming week.
@@ -706,6 +703,11 @@ Sign up priority set to low priority.
 ### 10. Technical Debt & Known Limitations
 We know that react cant work as native desktop application and force fullscreen during exam.
 
+We have limited back end developed and app needs larger backend coding.
+
+back end testing is still in process.
+
+front end is unfinished and contains alot of placeholder data.
 
 ### Document known issues, shortcuts, or unfinished areas.
 ### Examples:
@@ -715,20 +717,17 @@ We know that react cant work as native desktop application and force fullscreen 
 ### Dashboard contains placeholder data
 ### Mobile responsiveness not implemented
 
-Currently we have no database or back end yet. 
-
 
 
 
 ### The customer values honesty and transparency.
 
 
-
 ### 11. GitHub & Project Management Status
 
- Some issues done and pr:s done. Done front end issues and database design started.
+ More issues completed and code is running. 
+More issues created and set to backlog. 
 
-sprints designed for further progress.
 
 Github repository link: https://github.com/jasa89/Exam-webapp-
 
