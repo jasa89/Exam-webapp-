@@ -24,7 +24,7 @@ export default function Createquizpage() {
     })
 
 }, [])
-  
+  // add tasks to a list 
 const handleAddTask = () => {
 
     const taskToAdd = tasks.find(
@@ -35,6 +35,14 @@ const handleAddTask = () => {
 
     setQuizTasks(prev => [...prev, taskToAdd])
   }
+
+// remove task from list
+  const handleRemoveTask = (id) => {
+
+  setQuizTasks(prev =>
+    prev.filter(task => task.question_id !== id)
+  )
+}
 
 
   return (
@@ -53,23 +61,29 @@ const handleAddTask = () => {
 <div className="form-group">
 
 <label>Quiz name:</label>
-<input type="text" placeholder='Give name for exam' />
+<input type="text" placeholder='Give name for quiz' />
 </div>
 
 <div className="form-group">
+
 
 <label>Quiz opens:</label>
 <input type="datetime-local" id='quiz-open'name="available-from" />
 </div>
 
+<label>Quiz due date:</label>
+<input type="datetime-local" id='quiz-due'name="due-date" />
+</div>
+
 <div className='form-group'>
 <label>Quiz closes:</label>
 <input type="datetime-local" id='quiz-close'name="available-until" />    
+
+
 <label>Quiz time limit:</label>
-
-
 <select name="timelimits" id="time-limit-select">
   <option value="">Select time limit for quiz</option>
+  <option value="">No time limit</option>
   <option value="60">60min</option>
   <option value="90">90min</option>
   <option value="120">120min</option>
@@ -80,38 +94,50 @@ const handleAddTask = () => {
 </div>
 
 
-<fieldset className='form-group'>
-  <legend>Allow late submissions (0 points):</legend>
-
-  <div>
-    <input type="checkbox" id="allow-late" name="allow-late"/>
-    
-  </div>
-
- 
-    
-</fieldset>
-
 <h3>Create tasks:</h3>
 
-<select name="tasks" id="task-select" value={selectedTask} onChange={(e => setSelectedTask(e.currentTarget.value))}>
+<select name="tasks" id="task-select" value={selectedTask} onChange={(e => setSelectedTask(e.target.value))}>
   
   <option value="">Select task from database</option>
   
   {tasks.map(task => (
 
  <option key={task.question_id} value={task.question_id}>
+ 
   {task.question}
+ 
  </option>
   ))}
  
 </select>
 
 
+</div>
+
+<button onClick={handleAddTask}>Add task</button>
+
+
+<div className='added-tasks'>
+
+<h3>Selected tasks:</h3>
+
+
+<ul>
+ {quizTasks.map(task =>(
+  <li key={task.question_id}>
+
+    {task.question}
+
+<button onClick={() => handleRemoveTask(task.question_id)}>Remove</button>
+
+  </li>
+ 
+))}
+    
+</ul>
 
 </div>
 
-<button>Add task</button>
 
 <div className='ai-generator'>
 
@@ -135,7 +161,7 @@ const handleAddTask = () => {
 
 </div>
 
-  </div> 
+  
 
 </>
     
