@@ -1,9 +1,42 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import Topnav from '../components/topnav/Topnav'
 import './Examdesignpage.css'
 
 
 export default function Createquizpage() {
+  const [tasks, setTasks] = useState([])
+
+  const [selectedTask, setSelectedTask] = useState('')
+
+  const [quizTasks, setQuizTasks] = useState([])
+  useEffect(() => {
+
+    fetch('http://localhost:5000/api/questions')
+
+    .then(res => res.json())
+
+    .then(data => {
+      setTasks(data)
+    })
+
+    .catch(err => {
+      console.error(err)
+    })
+
+}, [])
+  
+const handleAddTask = () => {
+
+    const taskToAdd = tasks.find(
+      task => task.question_id === Number(selectedTask)
+    )
+
+    if (!taskToAdd) return
+
+    setQuizTasks(prev => [...prev, taskToAdd])
+  }
+
+
   return (
    
    <>
@@ -61,13 +94,20 @@ export default function Createquizpage() {
 
 <h3>Create tasks:</h3>
 
-<select name="tasks" id="task-select">
-  <option value="">Select tasks for Quiz from Task database</option>
-  <option value="Task1">Task 1</option>
-  <option value="Task2">Task 2</option>
-  <option value="Task3">Task 3</option>
+<select name="tasks" id="task-select" value={selectedTask} onChange={(e => setSelectedTask(e.currentTarget.value))}>
+  
+  <option value="">Select task from database</option>
+  
+  {tasks.map(task => (
+
+ <option key={task.question_id} value={task.question_id}>
+  {task.question}
+ </option>
+  ))}
  
 </select>
+
+
 
 </div>
 
