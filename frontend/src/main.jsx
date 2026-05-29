@@ -6,7 +6,7 @@ import { RouterProvider, createBrowserRouter } from "react-router-dom"
 import App from "./App" 
 import Frontpage from './pages/Frontpage'
 import Studentspage from './pages/Studentspage'
-import Teacherspage from './pages/teacherspage'
+import Teacherspage from './pages/Teacherspage'
 import Examdesignpage from './pages/Examdesignpage'
 import Createquizpage from './pages/Createquizpage' 
 import Createcoursepage from './pages/Createcoursepage'
