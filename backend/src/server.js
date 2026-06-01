@@ -22,6 +22,8 @@ app.use('/api/test', testRoutes)
 app.use('/api/questions', questionRoutes)
 
 
+
+
 app.get('/', (req, res) => {
   res.send('Backend is running')
 })
@@ -34,4 +36,4 @@ console.log(` Palvelin pyörii osoitteessa http://localhost:${PORT}`);
 })
 
 
-
+module.exports = app
